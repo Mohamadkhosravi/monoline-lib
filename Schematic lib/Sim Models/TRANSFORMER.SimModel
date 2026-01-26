@@ -1,0 +1,37 @@
+[Implementation]
+Description=Transformer
+ModelName=TRANSFORMER
+ModelType=SIM
+ModelFilename=
+ReleaseVaultGUID=
+ReleaseItemGUID=
+ItemRevisionGUID=
+
+[Parameter0]
+Name=Spice Prefix
+Value=K
+
+[Parameter1]
+Name=Netlist
+Value=LP@DESIGNATOR %1 %2 1mh\nLS@DESIGNATOR %3 %4 1mh\n@DESIGNATOR LP@DESIGNATOR LS@DESIGNATOR @"Coupling Factor"
+
+[Parameter2]
+Name=Kind
+Value=General
+
+[Parameter3]
+Name=SubKind
+Value=Coupled Inductors
+
+[Parameter4]
+Name=Inductance A
+Value=10mH
+
+[Parameter5]
+Name=Inductance B
+Value=10mH
+
+[Parameter6]
+Name=Coupling Factor
+Value=0.99
+

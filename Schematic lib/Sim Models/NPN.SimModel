@@ -1,0 +1,45 @@
+[Implementation]
+Description=NPN
+ModelName=NPN
+ModelType=SIM
+ModelFilename=
+ReleaseVaultGUID=
+ReleaseItemGUID=
+ItemRevisionGUID=
+
+[Parameter0]
+Name=Spice Prefix
+Value=Q
+
+[Parameter1]
+Name=Netlist
+Value=@DESIGNATOR %1 %2 %3 @MODEL &"AREA FACTOR" &"STARTING CONDITION" ?"INITIAL B-E VOLTAGE"|IC=@"INITIAL B-E VOLTAGE", @"INITIAL C-E VOLTAGE"| ?TEMPERATURE|TEMP=@TEMPERATURE|
+
+[Parameter2]
+Name=Kind
+Value=Transistor
+
+[Parameter3]
+Name=SubKind
+Value=BJT
+
+[Parameter4]
+Name=Area Factor
+Value=
+
+[Parameter5]
+Name=Starting Condition
+Value=
+
+[Parameter6]
+Name=Initial B-E Voltage
+Value=
+
+[Parameter7]
+Name=Initial C-E Voltage
+Value=
+
+[Parameter8]
+Name=Temperature
+Value=
+

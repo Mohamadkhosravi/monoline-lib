@@ -1,0 +1,25 @@
+[Implementation]
+Description=Spice Subcircuit
+ModelName=AD645A
+ModelType=SIM
+ModelFilename=
+ReleaseVaultGUID=
+ReleaseItemGUID=
+ItemRevisionGUID=
+
+[Parameter0]
+Name=Spice Prefix
+Value=X
+
+[Parameter1]
+Name=Netlist
+Value=@DESIGNATOR %1 %2 %3 %4 %5 @MODEL
+
+[Parameter2]
+Name=Kind
+Value=General
+
+[Parameter3]
+Name=SubKind
+Value=
+

@@ -1,0 +1,25 @@
+[Implementation]
+Description=Resistor
+ModelName=RESISTOR
+ModelType=SIM
+ModelFilename=
+ReleaseVaultGUID=
+ReleaseItemGUID=
+ItemRevisionGUID=
+
+[Parameter0]
+Name=Spice Prefix
+Value=R
+
+[Parameter1]
+Name=Netlist
+Value=@DESIGNATOR %1 %2 @VALUE
+
+[Parameter2]
+Name=Kind
+Value=General
+
+[Parameter3]
+Name=SubKind
+Value=Resistor
+
