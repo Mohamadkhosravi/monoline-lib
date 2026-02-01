@@ -338,14 +338,15 @@ Monoline is the cure:
 
 ---
 
-# 📚 Wiki Structure (Optional)
+# 📚 Wiki Structure 
 ---
 
 ---
 
 # 📜 License
-MIT License  
-(You are free to change it.)
+
+    Apache-2.0 license
+
 
 ---
 
