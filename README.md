@@ -4,6 +4,8 @@
 Monoline is not “just another component library”.  
 It is a **design language**, a **visual standard**, and a **complete schematic philosophy**.
 
+<img src="monoline_tmp.png" alt="" style="display: inline-block; height: 30rem; width: auto; vertical-align: text-bottom; margin: 0 0.25rem;" />
+
 Most public component libraries suffer from:
 - random inconsistent grids  
 - mismatched fonts  
