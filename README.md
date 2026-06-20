@@ -4,7 +4,7 @@
 Monoline is not “just another component library”.  
 It is a **design language**, a **visual standard**, and a **complete schematic philosophy**.
 
-<img src="monoline_tmp.png" alt="" style="display: inline-block; height: 30rem; width: auto; vertical-align: text-bottom; margin: 0 0.25rem;" />
+<img src="Pictures\monoline_tmp.png" alt="" style="display: inline-block; height: 30rem; width: auto; vertical-align: text-bottom; margin: 0 0.25rem;" />
 
 Most public component libraries suffer from:
 - random inconsistent grids  
@@ -114,6 +114,13 @@ White interior improves grouping clarity and helps engineers instantly see logic
 
 ---
 
+# The angle of the components should be curved
+- To ensure the beauty and uniformity of the library, all corners of the components in the Schematic library are considered curved.
+
+<img src="Pictures\Angle.png" alt="" style="display: inline-block; height: 25rem; width: auto; vertical-align: text-bottom; margin: 0 0.25rem;" />
+
+
+
 # 📐 Line Width Rules (Strict)
 To keep consistency:
 
@@ -133,13 +140,14 @@ To keep consistency:
 # 📏 Grid, Pin Length & Spacing Rules
 
 These rules apply to **library and schematic** both:
-
 - **Primary grid:** 100 mil  
 - **Pin length:** 200 mil  
 - **Internal block spacing:** 100 mil increments  
 - **Label offsets:** multiples of 50–100 mil  
 - **Component snapping:** ON  
 - **Pin-to-pin snap:** ON  
+
+
 
 **Why 100 mil?**  
 Because:
