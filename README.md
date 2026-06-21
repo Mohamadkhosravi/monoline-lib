@@ -82,7 +82,7 @@ Black lines have the highest contrast and remain perfect in printing.
 
 ---
 
-## 2) pure RED (RGB 255,0,0)
+## 2)  pure RED (RGB 255,0,0)  ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png)  
 **Not Altium default red. Must be exact RGB 255,0,0.**
 
 Used ONLY for:
@@ -102,7 +102,7 @@ Power rails must visually pop out with a single glance.
 
 ---
 
-## 3) WHITE interiors
+## 3) WHITE interiors  
 Used for filling internal areas of:
 - Rounded-corner IC functional blocks  
 - Large complex chips  
