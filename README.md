@@ -66,7 +66,7 @@ Every page remains beautiful and readable when printed grayscale.
 # 🎨 Color System — STRICT RULES
 Monoline uses a legendary ultra-minimal palette:
 
-## 1) BLACK (primary)
+## 1) BLACK (primary)  ![#000000](https://placehold.co/15x15/000000/000000.png)  
 Used for:
 - all wires  
 - all symbols  
@@ -102,7 +102,7 @@ Power rails must visually pop out with a single glance.
 
 ---
 
-## 3) WHITE interiors  
+## 3) WHITE interiors  ![#FFFFFF](https://placehold.co/15x15/ffffff/ffffff.png)  
 Used for filling internal areas of:
 - Rounded-corner IC functional blocks  
 - Large complex chips  
